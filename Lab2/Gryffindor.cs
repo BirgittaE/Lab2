@@ -4,18 +4,14 @@ using System.Text;
 
 namespace Lab2
 {
-    class Gryffindor : House
+    public class Gryffindor : House
     {
         public Gryffindor()
         {
             //HouseName = "Gryffindor";
             HouseGhost = "Nästan Huvudlöse Nick";
             Mascot = "Lejon";
-            Password = "mod, ridderskap och styrka";
-
-            
+            Password = "mod, ridderskap och styrka"; 
         }
-
-        
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab2
 {
-    class Ravenclaw : House
+    public class Ravenclaw : House
     {
         public Ravenclaw()
         {

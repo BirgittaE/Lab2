@@ -4,14 +4,21 @@ using System.Text;
 
 namespace Lab2
 {
-    class Wizard : House
+    public class Wizard
     {
-        //public  Wizard { get; set; }
-        //Member member = new Member;
-        //public string Name = "";
-        //public string Blodstatus = "";
-        //public string DumbledoresArmy = null;
- 
+        public string Name { get; set; }
+        public Type BloodStatus { get; set; }
+        public bool DeathEater { get; set; }
 
-}
+        public bool DumbledoresArmy;
+         
+
+        public enum Type
+        {
+            Renblod = 0,
+            Halvblod = 1,
+            Mugglarfödd = 2,
+            Okänt = 3
+        } 
+    }
 }
